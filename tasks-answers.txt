@@ -1,0 +1,49 @@
+1. 274
+
+SELECT COUNT("USA") FROM city WHERE CountryCode="USA";
+
+2. 37032000 
+
+SELECT SUM(Population) FROM country WHERE Code="ARG";
+
+   75.1
+
+SELECT SUM(LifeExpectancy) FROM country WHERE Code="ARG";
+
+3. Andorra 
+
+SELECT * FROM country ORDER BY LifeExpectancy DESC LIMIT 1;
+
+4. Madrid
+
+5.
+
+6.
+
+7. 363
+
+SELECT COUNT("CHN") FROM city JOIN country ON city.CountryCode=country.Code WHERE CountryCode="CHN";
+
+8. Antartica
+
+SELECT Name FROM country WHERE Population IS NOT NULL ORDER BY Population ASC LIMIT 1;
+
+9. 239
+
+SELECT COUNT(Name) FROM country;
+
+10. 
+
+11. Tokyo, Jokohoma(Yokohoma), Osaka, Nagoya, Sapporo
+
+SELECT * FROM city WHERE CountryCode="JPN" ORDER BY Population DESC LIMIT 5;
+
+12.
+
+
+
+
+
+
+
+ 
